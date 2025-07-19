@@ -1,0 +1,17 @@
+body {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: Arial;
+}
+textarea {
+    width: 60%;
+}
+button {
+    padding: 10px 20px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

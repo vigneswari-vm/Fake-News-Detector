@@ -1,0 +1,41 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detector</title>
+    <style>
+        body {
+            background: #1e1e2f;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 100px;
+        }
+        textarea {
+            width: 70%;
+            height: 150px;
+            font-size: 16px;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            background-color: #00c896;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>📰 Fake News Detector</h1>
+    <form action="/predict" method="POST">
+        <textarea name="news" placeholder="Enter news text here..." required></textarea><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
